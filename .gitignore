@@ -1,0 +1,68 @@
+# ============================================
+# Python / Backend
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment & secrets
+.env
+.env.local
+runtime_settings.json
+
+# ============================================
+# Node / Frontend
+# ============================================
+node_modules/
+dist/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# AI Model (besar, jangan di-commit)
+# ============================================
+backend/models/*.pt
+backend/models/*.onnx
+backend/models/*.engine
+!backend/models/.gitkeep
+
+# ============================================
+# Uploads & Processed (file user)
+# ============================================
+backend/uploads/*
+backend/processed/*
+!backend/uploads/.gitkeep
+!backend/processed/.gitkeep
+
+# ============================================
+# Logs & cache
+# ============================================
+*.log
+logs/
+.cache/
+
+# ============================================
+# IDE / OS
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
