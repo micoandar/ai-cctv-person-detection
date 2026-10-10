@@ -188,7 +188,7 @@ text
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/ai-cctv-person-detection.git
+git clone https://github.com/micoandar/ai-cctv-person-detection.git
 cd ai-cctv-person-detection
 2️⃣ Setup Database
 Buka XAMPP Control Panel
